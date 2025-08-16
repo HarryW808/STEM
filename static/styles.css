@@ -5,30 +5,42 @@ body {
     text-align: center;
 }
 
-.main-header {
+.main-header{
     background-color: white;
     color: black;
     text-align: center;
     padding: 40px 60px;
     border-radius: 50px;
     border: 8px solid black;
-    width: 100%; 
-    box-sizing: border-box; 
-    margin: 50px auto; 
-    display: block; 
+    width: 88%;
+    box-sizing: border-box;
+    margin: 50px auto;
+    display: block;
 }
-
-.main-Info {
+h1{
+    font-weight: bold;
+    font-size: 100px;
+}
+.main-info {
     background-color: white;
     color: black;
     text-align: center;
     padding: 40px 60px;
     border-radius: 50px;
     border: 8px solid black;
-    width: 100%; 
-    box-sizing: border-box; 
-    margin: 50px auto; 
-    display: block; 
+    width: 88%;
+    height: 580px;
+    box-sizing: border-box;
+    margin: 50px auto;
+    display: block;
+}
+.main-info h2{
+    font-size: 50px;
+}
+.main-info p{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .main-header h1 {
@@ -52,5 +64,5 @@ body {
 }
 
 .main-header nav ul li a:hover {
-    color: #121412;
+    color: green;
 }
