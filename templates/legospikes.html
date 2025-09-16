@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Document</title>
+</head>
+<body>
+    <header class="main-header">
+        <h1>Lego Spikes</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="stillDeveloping.html">Micro:bits</a></li>
+                <li><a href="stillDeveloping.html">Assesment</a></li>
+                <li><a href="stillDeveloping.html">Technical Drawing</a></li>
+                <li><a href="stillDeveloping.html">Project</a></li>
+                <li><a href="stillDeveloping.html">Reference</a></li>
+            </ul>
+        </nav>
+    </header>
+    <header class="main-info">
+        <div>
+            <h2>Kiki the dog</h2>
+            <video width="320" height="240" controls>
+                <source src="{{ url_for('static', filename='Kiki.mp4') }}" type="video/mp4">
+                
+            </video>
+        </div>
+    </header>
+    <header class="main-info">
+        <div>
+          <h2>The Jaw Breaker</h2>
+          <video width="320" height="240" controls>
+            <source src="{{ url_for('static', filename='JawBreaker.mp4') }}" type="video/mp4">
+            
+
+          </video>
+            
+        </div>
+
+    </header>
+    
+</body>
+</html>

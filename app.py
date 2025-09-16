@@ -13,6 +13,10 @@ def still_developing():
 @app.route("/origami")
 def origami():
     return render_template("origami.html")
+
+@app.route("/legospikes")
+def legospikes():
+    return render_template("legospikes.html")
     
 if __name__ == "__main__":
     app.run()
